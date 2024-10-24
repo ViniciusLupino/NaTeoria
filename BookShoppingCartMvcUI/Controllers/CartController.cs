@@ -12,17 +12,17 @@ namespace BookShoppingCartMvcUI.Controllers
         {
             _cartRepo = cartRepo;
         }
-        public async Task<IActionResult> AddItem(int bookId, int qty = 1, int redirect = 0)
+        public async Task<IActionResult> AddItem(int produtoId, int qty = 1, int redirect = 0)
         {
-            var cartCount = await _cartRepo.AddItem(bookId, qty);
+            var cartCount = await _cartRepo.AddItem(produtoId, qty);
             if (redirect == 0)
                 return Ok(cartCount);
             return RedirectToAction("GetUserCart");
         }
 
-        public async Task<IActionResult> RemoveItem(int bookId)
+        public async Task<IActionResult> RemoveItem(int produtoId)
         {
-            var cartCount = await _cartRepo.RemoveItem(bookId);
+            var cartCount = await _cartRepo.RemoveItem(produtoId);
             return RedirectToAction("GetUserCart");
         }
         public async Task<IActionResult> GetUserCart()

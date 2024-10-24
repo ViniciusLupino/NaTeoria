@@ -4,15 +4,15 @@
 }
 @* @Html.ValidationSummary() *@
 <div style="width:50%">
-<h2> Add Genre </h2>
-<a asp-action="Index" asp-controller="Genre" class="btn btn-primary">Back</a>
+<h2> Add genero </h2>
+<a asp-action="Index" asp-controller="genero" class="btn btn-primary">Back</a>
 <form asp-action="AddGenre">
    @* <input type="hidden" asp-for="Id" /> *@
 
    <div class="my-2">
-      <label>Genre</label>
-      <input type="text" class="form-control" asp-for="GenreName" />
-            <span asp-validation-for="GenreName" class="text-danger"></span>
+      <label>genero</label>
+      <input type="text" class="form-control" asp-for="GeneroName" />
+            <span asp-validation-for="GeneroName" class="text-danger"></span>
    </div>
 
    <div class="my-2">

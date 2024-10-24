@@ -17,44 +17,10 @@ namespace BookShoppingCartMvcUI.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.3")
+                .HasAnnotation("ProductVersion", "8.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Book", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AuthorName")
-                        .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
-
-                    b.Property<string>("BookName")
-                        .IsRequired()
-                        .HasMaxLength(40)
-                        .HasColumnType("nvarchar(40)");
-
-                    b.Property<int>("GenreId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Image")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("GenreId");
-
-                    b.ToTable("Book");
-                });
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.CartDetail", b =>
                 {
@@ -64,7 +30,7 @@ namespace BookShoppingCartMvcUI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BookId")
+                    b.Property<int>("ProdutoId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -78,14 +44,14 @@ namespace BookShoppingCartMvcUI.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BookId");
+                    b.HasIndex("ProdutoId");
 
                     b.HasIndex("ShoppingCartId");
 
                     b.ToTable("CartDetail");
                 });
 
-            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Genre", b =>
+            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Estoque", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -93,14 +59,36 @@ namespace BookShoppingCartMvcUI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("GenreName")
+                    b.Property<int>("ProdutoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProdutoId")
+                        .IsUnique();
+
+                    b.ToTable("Estoque");
+                });
+
+            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Genero", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("GeneroName")
                         .IsRequired()
                         .HasMaxLength(40)
                         .HasColumnType("nvarchar(40)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genre");
+                    b.ToTable("Genero");
                 });
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.Order", b =>
@@ -166,10 +154,10 @@ namespace BookShoppingCartMvcUI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BookId")
+                    b.Property<int>("OrderId")
                         .HasColumnType("int");
 
-                    b.Property<int>("OrderId")
+                    b.Property<int>("ProdutoId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -180,9 +168,9 @@ namespace BookShoppingCartMvcUI.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BookId");
-
                     b.HasIndex("OrderId");
+
+                    b.HasIndex("ProdutoId");
 
                     b.ToTable("OrderDetail");
                 });
@@ -208,6 +196,35 @@ namespace BookShoppingCartMvcUI.Migrations
                     b.ToTable("OrderStatus");
                 });
 
+            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Produto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("GeneroId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<string>("ProdutoName")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GeneroId");
+
+                    b.ToTable("Produto");
+                });
+
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.ShoppingCart", b =>
                 {
                     b.Property<int>("Id")
@@ -226,28 +243,6 @@ namespace BookShoppingCartMvcUI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ShoppingCart");
-                });
-
-            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Stock", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("BookId")
-                        .IsUnique();
-
-                    b.ToTable("Stock");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -448,22 +443,11 @@ namespace BookShoppingCartMvcUI.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Book", b =>
-                {
-                    b.HasOne("BookShoppingCartMvcUI.Models.Genre", "Genre")
-                        .WithMany("Books")
-                        .HasForeignKey("GenreId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Genre");
-                });
-
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.CartDetail", b =>
                 {
-                    b.HasOne("BookShoppingCartMvcUI.Models.Book", "Book")
+                    b.HasOne("BookShoppingCartMvcUI.Models.Produto", "Produto")
                         .WithMany("CartDetail")
-                        .HasForeignKey("BookId")
+                        .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -473,9 +457,20 @@ namespace BookShoppingCartMvcUI.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Book");
+                    b.Navigation("Produto");
 
                     b.Navigation("ShoppingCart");
+                });
+
+            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Estoque", b =>
+                {
+                    b.HasOne("BookShoppingCartMvcUI.Models.Produto", "Produto")
+                        .WithOne("Estoque")
+                        .HasForeignKey("BookShoppingCartMvcUI.Models.Estoque", "ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Produto");
                 });
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.Order", b =>
@@ -491,32 +486,32 @@ namespace BookShoppingCartMvcUI.Migrations
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.OrderDetail", b =>
                 {
-                    b.HasOne("BookShoppingCartMvcUI.Models.Book", "Book")
-                        .WithMany("OrderDetail")
-                        .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("BookShoppingCartMvcUI.Models.Order", "Order")
                         .WithMany("OrderDetail")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Book");
-
-                    b.Navigation("Order");
-                });
-
-            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Stock", b =>
-                {
-                    b.HasOne("BookShoppingCartMvcUI.Models.Book", "Book")
-                        .WithOne("Stock")
-                        .HasForeignKey("BookShoppingCartMvcUI.Models.Stock", "BookId")
+                    b.HasOne("BookShoppingCartMvcUI.Models.Produto", "produto")
+                        .WithMany("OrderDetail")
+                        .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Book");
+                    b.Navigation("Order");
+
+                    b.Navigation("produto");
+                });
+
+            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Produto", b =>
+                {
+                    b.HasOne("BookShoppingCartMvcUI.Models.Genero", "Genero")
+                        .WithMany("Produtos")
+                        .HasForeignKey("GeneroId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Genero");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -570,23 +565,23 @@ namespace BookShoppingCartMvcUI.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Book", b =>
+            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Genero", b =>
                 {
-                    b.Navigation("CartDetail");
-
-                    b.Navigation("OrderDetail");
-
-                    b.Navigation("Stock")
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Genre", b =>
-                {
-                    b.Navigation("Books");
+                    b.Navigation("Produtos");
                 });
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.Order", b =>
                 {
+                    b.Navigation("OrderDetail");
+                });
+
+            modelBuilder.Entity("BookShoppingCartMvcUI.Models.Produto", b =>
+                {
+                    b.Navigation("CartDetail");
+
+                    b.Navigation("Estoque")
+                        .IsRequired();
+
                     b.Navigation("OrderDetail");
                 });
 

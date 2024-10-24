@@ -17,7 +17,7 @@ public class ReportsController : Controller
             DateTime startDate = sDate ?? DateTime.UtcNow.AddDays(-7);
             DateTime endDate = eDate ?? DateTime.UtcNow;
             var topFiveSellingBooks = await _reportRepository.GetTopNSellingBooksByDate(startDate, endDate);
-            var vm = new TopNSoldBooksVm(startDate, endDate, topFiveSellingBooks);
+            var vm = new TopNSoldProdutosVm(startDate, endDate, topFiveSellingBooks);
             return View(vm);
         }
         catch (Exception ex)

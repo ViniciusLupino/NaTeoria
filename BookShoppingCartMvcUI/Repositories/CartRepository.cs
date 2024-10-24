@@ -16,7 +16,7 @@ namespace BookShoppingCartMvcUI.Repositories
             _userManager = userManager;
             _httpContextAccessor = httpContextAccessor;
         }
-        public async Task<int> AddItem(int bookId, int qty)
+        public async Task<int> AddItem(int produtoId, int qty)
         {
             string userId = GetUserId();
             using var transaction = _db.Database.BeginTransaction();
@@ -36,20 +36,20 @@ namespace BookShoppingCartMvcUI.Repositories
                 _db.SaveChanges();
                 // cart detail section
                 var cartItem = _db.CartDetails
-                                  .FirstOrDefault(a => a.ShoppingCartId == cart.Id && a.BookId == bookId);
+                                  .FirstOrDefault(a => a.ShoppingCartId == cart.Id && a.ProdutoId == produtoId);
                 if (cartItem is not null)
                 {
                     cartItem.Quantity += qty;
                 }
                 else
                 {
-                    var book = _db.Books.Find(bookId);
+                    var produto = _db.Produtos.Find(produtoId);
                     cartItem = new CartDetail
                     {
-                        BookId = bookId,
+                        ProdutoId = produtoId,
                         ShoppingCartId = cart.Id,
                         Quantity = qty,
-                        UnitPrice = book.Price  // it is a new line after update
+                        UnitPrice = produto.Price  // it is a new line after update
                     };
                     _db.CartDetails.Add(cartItem);
                 }
@@ -64,7 +64,7 @@ namespace BookShoppingCartMvcUI.Repositories
         }
 
 
-        public async Task<int> RemoveItem(int bookId)
+        public async Task<int> RemoveItem(int produtoId)
         {
             //using var transaction = _db.Database.BeginTransaction();
             string userId = GetUserId();
@@ -77,7 +77,7 @@ namespace BookShoppingCartMvcUI.Repositories
                     throw new InvalidOperationException("Invalid cart");
                 // cart detail section
                 var cartItem = _db.CartDetails
-                                  .FirstOrDefault(a => a.ShoppingCartId == cart.Id && a.BookId == bookId);
+                                  .FirstOrDefault(a => a.ShoppingCartId == cart.Id && a.ProdutoId == produtoId);
                 if (cartItem is null)
                     throw new InvalidOperationException("Not items in cart");
                 else if (cartItem.Quantity == 1)
@@ -101,11 +101,11 @@ namespace BookShoppingCartMvcUI.Repositories
                 throw new InvalidOperationException("Invalid userid");
             var shoppingCart = await _db.ShoppingCarts
                                   .Include(a => a.CartDetails)
-                                  .ThenInclude(a => a.Book)
-                                  .ThenInclude(a => a.Stock)
+                                  .ThenInclude(a => a.Produto)
+                                  .ThenInclude(a => a.Estoque)
                                   .Include(a => a.CartDetails)
-                                  .ThenInclude(a => a.Book)
-                                  .ThenInclude(a => a.Genre)
+                                  .ThenInclude(a => a.Produto)
+                                  .ThenInclude(a => a.Genero)
                                   .Where(a => a.UserId == userId).FirstOrDefaultAsync();
             return shoppingCart;
 
@@ -169,27 +169,27 @@ namespace BookShoppingCartMvcUI.Repositories
                 {
                     var orderDetail = new OrderDetail
                     {
-                        BookId = item.BookId,
+                        ProdutoId = item.ProdutoId,
                         OrderId = order.Id,
                         Quantity = item.Quantity,
                         UnitPrice = item.UnitPrice
                     };
                     _db.OrderDetails.Add(orderDetail);
 
-                    // update stock here
+                    // update estoque here
 
-                    var stock = await _db.Stocks.FirstOrDefaultAsync(a => a.BookId == item.BookId);
-                    if (stock == null)
+                    var estoque = await _db.Stocks.FirstOrDefaultAsync(a => a.ProdutoId == item.ProdutoId);
+                    if (estoque == null)
                     {
-                        throw new InvalidOperationException("Stock is null");
+                        throw new InvalidOperationException("Estoque is null");
                     }
 
-                    if (item.Quantity > stock.Quantity)
+                    if (item.Quantity > estoque.Quantity)
                     {
-                        throw new InvalidOperationException($"Only {stock.Quantity} items(s) are available in the stock");
+                        throw new InvalidOperationException($"Only {estoque.Quantity} items(s) are available in the estoque");
                     }
-                    // decrease the number of quantity from the stock table
-                    stock.Quantity -= item.Quantity;
+                    // decrease the number of quantity from the estoque table
+                    estoque.Quantity -= item.Quantity;
                 }
                 //_db.SaveChanges();
 

@@ -1,16 +1,16 @@
-﻿@model BookDisplayModel
+﻿    @model ProdutoDisplayModel
 @{
 
 }
 <div class="my-2">
     <form asp-action="Index" class="row row-cols-lg-auto g-3 align-items-center">
         <div class="col-12">
-            <label class="visually-hidden" for="genreId">Genres</label>
-            <select class="form-select" id="genreId" name="genreId">
-                <option selected>Genre</option>
-                @foreach (var genre in Model.Genres)
+            <label class="visually-hidden" for="GeneroId">Generos</label>
+            <select class="form-select" id="GeneroId" name="GeneroId">
+                <option selected>genero</option>
+                @foreach (var genero in Model.Generos)
                 {
-                    <option selected="@(genre.Id == Model.GenreId)" value="@genre.Id">@genre.GenreName</option>
+                    <option selected="@(genero.Id == Model.GeneroId)" value="@genero.Id">@genero.GeneroName</option>
                 }
             </select>
         </div>
@@ -31,33 +31,32 @@
 </div>
 
 <div class="w-100 mt-4 d-flex flex-wrap ">
-    @foreach (var book in Model.Books)
+    @foreach (var produto in Model.Produtos)
     {
         <div class="card mx-3 mb-4" style="width: 11rem;">
-            @if (string.IsNullOrEmpty(book.Image))
+            @if (string.IsNullOrEmpty(produto.Image))
             {
                 <img style="width:100%;height:180px" src="/images/NoImage.png" class="card-img-top" alt="...">
 
             }
             else
             {
-                <img style="width:100%;height:180px" src="/images/@book.Image" class="card-img-top" alt="...">
+                <img style="width:100%;height:180px" src="/images/@produto.Image" class="card-img-top" alt="...">
             }
             <div class="card-body">
-                <h5 class="card-title">@book.BookName</h5>
+                <h5 class="card-title">@produto.ProdutoName</h5>
                 <p class="card-text">
-                    <b>Genre: </b>@book.GenreName <br />
-                    <b>Author: </b>@book.AuthorName <br />
-                    <b>Price: </b>@book.Price
-                    @* <br/> <b>@book.Quantity</b> *@
+                    <b>genero: </b>@produto.GeneroName <br />
+                    <b>Price: </b>@produto.Price
+                    @* <br/> <b>@produto.Quantity</b> *@
                 </p>
-                @if (book.Quantity > 0)
+                @if (produto.Quantity > 0)
                 {
-                    <button type="button" onclick="add(@book.Id)" class="btn btn-primary">Add to cart</button>
+                    <button type="button" onclick="add(@produto.Id)" class="btn btn-primary">Add to cart</button>
                 }
                 else
                 {
-                    <span style="border: 1px solid;padding: 5px 8px;color: red;border-radius: 5px;">Out of stock</span>
+                    <span style="border: 1px solid;padding: 5px 8px;color: red;border-radius: 5px;">Out of estoque</span>
                 }
             </div>
         </div>
@@ -66,7 +65,7 @@
 
 @section Scripts{
     <script>
-        async function add(bookId) {
+        async function add(produtoId) {
              var usernameEl = document.getElementById("username");
         if(usernameEl==null){
             window.location.href = "/Identity/Account/Login";
@@ -76,7 +75,7 @@
           //  }
         }
             try {
-                var response = await fetch(`/Cart/AddItem?bookId=${bookId}`);
+                var response = await fetch(`/Cart/AddItem?produtoId=${produtoId}`);
                 if (response.status == 200) {
                     var result = await response.json();
                     var cartCountEl = document.getElementById("cartCount");

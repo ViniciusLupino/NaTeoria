@@ -4,11 +4,11 @@ namespace BookShoppingCartMvcUI.Repositories;
 
 public interface IGenreRepository
 {
-    Task AddGenre(Genre genre);
-    Task UpdateGenre(Genre genre);
-    Task<Genre?> GetGenreById(int id);
-    Task DeleteGenre(Genre genre);
-    Task<IEnumerable<Genre>> GetGenres();
+    Task AddGenre(Genero genero);
+    Task UpdateGenre(Genero genero);
+    Task<Genero?> GetGenreById(int id);
+    Task DeleteGenre(Genero genero);
+    Task<IEnumerable<Genero>> GetGenres();
 }
 public class GenreRepository : IGenreRepository
 {
@@ -18,31 +18,31 @@ public class GenreRepository : IGenreRepository
         _context = context;
     }
 
-    public async Task AddGenre(Genre genre)
+    public async Task AddGenre(Genero genero)
     {
-        _context.Genres.Add(genre);
+        _context.Generos.Add(genero);
         await _context.SaveChangesAsync();
     }
-    public async Task UpdateGenre(Genre genre)
+    public async Task UpdateGenre(Genero genero)
     {
-        _context.Genres.Update(genre);
-        await _context.SaveChangesAsync();
-    }
-
-    public async Task DeleteGenre(Genre genre)
-    {
-        _context.Genres.Remove(genre);
+        _context.Generos.Update(genero);
         await _context.SaveChangesAsync();
     }
 
-    public async Task<Genre?> GetGenreById(int id)
+    public async Task DeleteGenre(Genero genero)
     {
-        return await _context.Genres.FindAsync(id);
+        _context.Generos.Remove(genero);
+        await _context.SaveChangesAsync();
     }
 
-    public async Task<IEnumerable<Genre>> GetGenres()
+    public async Task<Genero?> GetGenreById(int id)
     {
-        return await _context.Genres.ToListAsync();
+        return await _context.Generos.FindAsync(id);
+    }
+
+    public async Task<IEnumerable<Genero>> GetGenres()
+    {
+        return await _context.Generos.ToListAsync();
     }
 
     

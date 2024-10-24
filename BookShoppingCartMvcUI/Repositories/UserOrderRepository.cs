@@ -56,8 +56,8 @@ namespace BookShoppingCartMvcUI.Repositories
             var orders = _db.Orders
                            .Include(x => x.OrderStatus)
                            .Include(x => x.OrderDetail)
-                           .ThenInclude(x => x.Book)
-                           .ThenInclude(x => x.Genre).AsQueryable();
+                           .ThenInclude(x => x.produto)
+                           .ThenInclude(x => x.Genero).AsQueryable();
             if (!getAll)
             {
                 var userId = GetUserId();

@@ -13,11 +13,11 @@ public class ReportRepository : IReportRepository
         _context = context;
     }
 
-    public async Task<IEnumerable<TopNSoldBookModel>> GetTopNSellingBooksByDate(DateTime startDate, DateTime endDate)
+    public async Task<IEnumerable<TopNSoldProdutoModel>> GetTopNSellingBooksByDate(DateTime startDate, DateTime endDate)
     {
         var startDateParam = new SqlParameter("@startDate", startDate);
         var endDateParam = new SqlParameter("@endDate", endDate);
-        var topFiveSoldBooks = await _context.Database.SqlQueryRaw<TopNSoldBookModel>("exec Usp_GetTopNSellingBooksByDate @startDate,@endDate", startDateParam, endDateParam).ToListAsync();
+        var topFiveSoldBooks = await _context.Database.SqlQueryRaw<TopNSoldProdutoModel>("exec Usp_GetTopNSellingBooksByDate @startDate,@endDate", startDateParam, endDateParam).ToListAsync();
         return topFiveSoldBooks;
     }
 
@@ -25,5 +25,5 @@ public class ReportRepository : IReportRepository
 
 public interface IReportRepository
 {
-    Task<IEnumerable<TopNSoldBookModel>> GetTopNSellingBooksByDate(DateTime startDate, DateTime endDate);
+    Task<IEnumerable<TopNSoldProdutoModel>> GetTopNSellingBooksByDate(DateTime startDate, DateTime endDate);
 }

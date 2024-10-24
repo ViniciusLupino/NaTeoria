@@ -2,7 +2,7 @@
 
 namespace BookShoppingCartMvcUI.Repositories
 {
-    public class StockRepository : IStockRepository
+    public class StockRepository : IEstoqueRepository
     {
         private readonly ApplicationDbContext _context;
 
@@ -11,37 +11,37 @@ namespace BookShoppingCartMvcUI.Repositories
             _context = context;
         }
 
-        public async Task<Stock?> GetStockByBookId(int bookId) => await _context.Stocks.FirstOrDefaultAsync(s => s.BookId == bookId);
+        public async Task<Estoque?> GetEstoqueByProdutoId(int produtoId) => await _context.Stocks.FirstOrDefaultAsync(s => s.ProdutoId == produtoId);
 
-        public async Task ManageStock(StockDTO stockToManage)
+        public async Task ManageStock(EstoqueDTO stockToManage)
         {
-            // if there is no stock for given book id, then add new record
-            // if there is already stock for given book id, update stock's quantity
-            var existingStock = await GetStockByBookId(stockToManage.BookId);
-            if (existingStock is null)
+            // if there is no estoque for given produto id, then add new record
+            // if there is already estoque for given produto id, update estoque's quantity
+            var estoqueExiste = await GetEstoqueByProdutoId(stockToManage.ProdutoId);
+            if (estoqueExiste is null)
             {
-                var stock = new Stock { BookId = stockToManage.BookId, Quantity = stockToManage.Quantity };
-                _context.Stocks.Add(stock);
+                var estoque = new Estoque { ProdutoId = stockToManage.ProdutoId, Quantity = stockToManage.Quantity };
+                _context.Stocks.Add(estoque);
             }
             else
             {
-                existingStock.Quantity = stockToManage.Quantity;
+                estoqueExiste.Quantity = stockToManage.Quantity;
             }
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<StockDisplayModel>> GetStocks(string sTerm = "")
+        public async Task<IEnumerable<EstoqueDisplayModel>> GetEstoques(string sTerm = "")
         {
-            var stocks = await (from book in _context.Books
-                                join stock in _context.Stocks
-                                on book.Id equals stock.BookId
+            var stocks = await (from produto in _context.Produtos
+                                join estoque in _context.Stocks
+                                on produto.Id equals estoque.ProdutoId
                                 into book_stock
                                 from bookStock in book_stock.DefaultIfEmpty()
-                                where string.IsNullOrWhiteSpace(sTerm) || book.BookName.ToLower().Contains(sTerm.ToLower())
-                                select new StockDisplayModel
+                                where string.IsNullOrWhiteSpace(sTerm) || produto.ProdutoName.ToLower().Contains(sTerm.ToLower())
+                                select new EstoqueDisplayModel
                                 {
-                                    BookId = book.Id,
-                                    BookName = book.BookName,
+                                    ProdutoId = produto.Id,
+                                    ProdutoName = produto.ProdutoName,
                                     Quantity = bookStock == null ? 0 : bookStock.Quantity
                                 }
                                 ).ToListAsync();
@@ -50,10 +50,10 @@ namespace BookShoppingCartMvcUI.Repositories
 
     }
 
-    public interface IStockRepository
+    public interface IEstoqueRepository
     {
-        Task<IEnumerable<StockDisplayModel>> GetStocks(string sTerm = "");
-        Task<Stock?> GetStockByBookId(int bookId);
-        Task ManageStock(StockDTO stockToManage);
+        Task<IEnumerable<EstoqueDisplayModel>> GetEstoques(string sTerm = "");
+        Task<Estoque?> GetEstoqueByProdutoId(int produtoId);
+        Task ManageStock(EstoqueDTO stockToManage);
     }
 }

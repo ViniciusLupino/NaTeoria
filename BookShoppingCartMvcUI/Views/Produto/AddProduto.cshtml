@@ -1,0 +1,40 @@
+﻿@model ProdutoDTO
+@{
+    Layout = "_AdminLayout";
+}
+<div style="width:50%">
+    <h2> Add produto </h2>
+    <a asp-action="Index" asp-controller="Produto" class="btn btn-primary">Back</a>
+    <form asp-action="AddProduto" enctype="multipart/form-data">
+        @* <input type="hidden" asp-for="Id" /> *@
+
+        <div class="my-2">
+            <label>produto*</label>
+            <input type="text" class="form-control" asp-for="ProdutoName" />
+            <span asp-validation-for="ProdutoName" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label>genero*</label>
+            <select class="form-control" asp-for="GeneroId" asp-items="Model.GenreList">
+                <option value="">Select genero</option>
+            </select>
+            <span asp-validation-for="GeneroId" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label>Price*</label>
+            <input type="number" class="form-control" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label>Image</label>
+            <input type="file" class="form-control" asp-for="ImageFile" />
+        </div>
+
+        <div class="my-2">
+            <button type="submit" class="btn btn-info">Add</button>
+        </div>
+    </form>
+</div>

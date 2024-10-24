@@ -10,8 +10,8 @@
             <div class="modal-body">
                 <table class="table table-striped">
                     <tr>
-                        <th>Book</th>
-                        <th>Genre</th>
+                        <th>produto</th>
+                        <th>genero</th>
                         <th>Price</th>
                         <th>Quantiy</th>
                         <th>TotalPrice</th>
@@ -19,8 +19,8 @@
                     @foreach (var item in Model.OrderDetail)
                     {
                         <tr>
-                            <td>@item.Book.BookName</td>
-                            <td>@item.Book.Genre.GenreName</td>
+                            <td>@item.produto.ProdutoName</td>
+                            <td>@item.produto.Genero.GeneroName</td>
                             <td>@item.UnitPrice</td>
                             <td>@item.Quantity</td>
                             <td>@(item.Quantity * item.UnitPrice)</td>

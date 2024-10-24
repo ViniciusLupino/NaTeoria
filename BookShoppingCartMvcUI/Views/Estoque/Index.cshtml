@@ -1,0 +1,30 @@
+﻿@model IEnumerable<EstoqueDisplayModel>
+@{
+    Layout = "_AdminLayout";
+}
+<h2>Stocks</h2>
+
+<form asp-action="Index" method="get" class="my-2 d-flex gap-2">
+    <input type="text" name="sTerm" class="form-control w-25" placeholder="Search by produto" />
+    <button type="submit" class="btn btn-primary">Find</button>
+    <a asp-action="Index" asp-controller="Estoque" class="btn btn-primary">Clear</a>
+</form>
+
+<table class="table table-bordered">
+  <tr>
+    <th>produto</th>
+    <th>Estoque</th>
+    <th>Actions</th>
+  </tr>
+  @foreach(var item in Model)
+  {
+    <tr>
+      <td>@item.ProdutoName</td>
+      <td>@item.Quantity</td>
+      <td>
+         <a asp-action="ManageStock" asp-controller="Estoque" asp-route-produtoId="@item.ProdutoId" class="btn btn-info"> Update Estoque</a>
+      </td>
+    </tr>
+  }
+</table>
+

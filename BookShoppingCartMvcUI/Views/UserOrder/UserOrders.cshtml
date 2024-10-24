@@ -28,34 +28,34 @@
                                         Total:
                                     </td>
                                     <td>
-                                        @(order.OrderDetail.Select(item => item.Book.Price * item.Quantity).Sum())
+                                        @(order.OrderDetail.Select(item => item.produto.Price * item.Quantity).Sum())
 
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>Book</th>
+                                    <th>produto</th>
                                     <th>Image</th>
-                                    <th>Genre</th>
+                                    <th>genero</th>
                                     <th>Unit Price(INR)</th>
                                     <th>Total Price</th>
                                 </tr>
                                 @foreach (var item in order.OrderDetail)
                                 {
                                     <tr>
-                                        <td>@item.Book.BookName</td>
+                                        <td>@item.produto.ProdutoName</td>
                                         <td>
-                                            @if (string.IsNullOrEmpty(item.Book.Image))
+                                            @if (string.IsNullOrEmpty(item.produto.Image))
                                             {
                                                 <img src="/images/NoImage.png" style="width:80px;height:100px" />
                                             }
                                             else
                                             {
-                                                <img src="/images/@item.Book.Image" style="width:80px;height:100px" />
+                                                <img src="/images/@item.produto.Image" style="width:80px;height:100px" />
                                             }
                                         </td>
-                                        <td>@item.Book.Genre.GenreName</td>
-                                        <td>@item.Book.Price X @item.Quantity</td>
-                                        <td> @(item.Book.Price * item.Quantity) </td>
+                                        <td>@item.produto.Genero.GeneroName</td>
+                                        <td>@item.produto.Price X @item.Quantity</td>
+                                        <td> @(item.produto.Price * item.Quantity) </td>
                                     </tr>
                                 }
                             </table>

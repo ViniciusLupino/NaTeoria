@@ -16,16 +16,16 @@ namespace BookShoppingCartMvcUI.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index(string sterm="",int genreId=0)
+        public async Task<IActionResult> Index(string sterm="",int GeneroId=0)
         {
-            IEnumerable<Book> books = await _homeRepository.GetBooks(sterm, genreId);
-            IEnumerable<Genre> genres = await _homeRepository.Genres();
-            BookDisplayModel bookModel = new BookDisplayModel
+            IEnumerable<Produto> Produtos = await _homeRepository.GetProdutos(sterm, GeneroId);
+            IEnumerable<Genero> Generos = await _homeRepository.Generos();
+            ProdutoDisplayModel bookModel = new ProdutoDisplayModel
             {
-              Books=books,
-              Genres=genres,
+              Produtos=Produtos,
+              Generos=Generos,
               STerm=sterm,
-              GenreId=genreId
+              GeneroId=GeneroId
             };
             return View(bookModel);
         }

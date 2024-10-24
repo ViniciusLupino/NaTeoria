@@ -10,9 +10,9 @@
 
         <table class="table table-striped">
             <tr>
-                <th>Book</th>
+                <th>produto</th>
                 <th>Image</th>
-                <th>Genre</th>
+                <th>genero</th>
                 <th>Unit Price(INR)</th>
                 <th>Total Price</th>
                 <th>Action</th>
@@ -20,32 +20,32 @@
             @foreach (var item in Model.CartDetails)
             {
                 <tr>
-                    <td>@item.Book.BookName</td>
+                    <td>@item.Produto.ProdutoName</td>
                     <td>
-                        @if (string.IsNullOrEmpty(item.Book.Image))
+                        @if (string.IsNullOrEmpty(item.Produto.Image))
                         {
                             <img src="/images/NoImage.png" style="width:80px;height:100px" />
                         }
                         else
                         {
-                            <img src="/images/@item.Book.Image" style="width:80px;height:100px" />
+                            <img src="/images/@item.Produto.Image" style="width:80px;height:100px" />
                         }
                     </td>
-                    <td>@item.Book.Genre.GenreName</td>
-                    <td>@item.Book.Price X @item.Quantity</td>
-                    <td>@(item.Book.Price * item.Quantity)</td>
+                    <td>@item.Produto.Genero.GeneroName</td>
+                    <td>@item.Produto.Price X @item.Quantity</td>
+                    <td>@(item.Produto.Price * item.Quantity)</td>
                     <td>
-                        @* Increase Quantity button should be invisible if not enough stock*@
-                        @if (item.Quantity < item.Book.Stock.Quantity)
+                        @* Increase Quantity button should be invisible if not enough estoque*@
+                        @if (item.Quantity < item.Produto.Estoque.Quantity)
                         {
-                            <a class="btn btn-info" href="/Cart/AddItem?bookId=@item.BookId&&redirect=1">+</a>
+                            <a class="btn btn-info" href="/Cart/AddItem?produtoId=@item.ProdutoId&&redirect=1">+</a>
                         }
                         else
                         {
-                            <span style="border: 1px solid;padding: 8px 8px;color: red;border-radius: 5px;margin-right:4px">Out of stock </span>
+                            <span style="border: 1px solid;padding: 8px 8px;color: red;border-radius: 5px;margin-right:4px">Out of estoque </span>
                         }
                         @* Decrement button *@
-                        <a class="btn btn-info" href="/cart/removeitem?bookid=@item.BookId">-</a>
+                        <a class="btn btn-info" href="/cart/removeitem?bookid=@item.ProdutoId">-</a>
                     </td>
                 </tr>
             }
@@ -53,7 +53,7 @@
 
         <div class="my-2">
             <h5>Total(INR): </h5>
-            @(Model.CartDetails.Select(item => item.Book.Price * item.Quantity).Sum())
+            @(Model.CartDetails.Select(item => item.Produto.Price * item.Quantity).Sum())
         </div>
 
         <div class="my-2">

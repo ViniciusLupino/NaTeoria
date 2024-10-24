@@ -2,7 +2,7 @@
 {
     public interface IHomeRepository
     {
-        Task<IEnumerable<Book>> GetBooks(string sTerm = "", int genreId = 0);
-        Task<IEnumerable<Genre>> Genres();
+        Task<IEnumerable<Produto>> GetProdutos(string sTerm = "", int GeneroId = 0);
+        Task<IEnumerable<Genero>> Generos();
     }
 }

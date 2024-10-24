@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Produto>
+@{
+    Layout = "_AdminLayout";
+}
+
+<h2>Produtos</h2>
+
+<a asp-action="AddProduto" asp-controller="Produto" class="btn btn-primary">Add More</a>
+
+@if (Model?.Count() > 0)
+{
+    <table class="table table-striped my-2">
+        <tr>
+            <th>Image</th>
+            <th>Produto</th>
+            <th>Gênero</th>
+            <th>Preço</th>
+            <th>Ações</th>
+        </tr>
+
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>
+                    @if (string.IsNullOrWhiteSpace(produto.Image))
+                    {
+                        <img src="/Images/NoImage.png" style="width:80px;height:100px" alt="Produto image" />
+                    }
+                    else
+                    {
+                        <img src="/images/@produto.Image" style="width:80px;height:100px" alt="Produto image" />
+                    }
+                </td>
+                <td>@produto.ProdutoName</td>
+                <td>@produto.Genero.GeneroName</td>
+                <td>@produto.Price.ToString("C")</td> <!-- Formatação de preço -->
+                <td>
+                    <a asp-action="UpdateProduto" asp-controller="Produto" asp-route-id="@produto.Id" class="btn btn-success">Edit</a>
+                    <a asp-action="DeleteProduto" asp-controller="Produto" asp-route-id="@produto.Id" class="btn btn-danger" onclick="return window.confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <h3>No records</h3>
+}
