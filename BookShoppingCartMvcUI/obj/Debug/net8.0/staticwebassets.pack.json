@@ -1,31 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\BookMarket\\BookShoppingCartMvcUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookShoppingCartMvcUI.bundle.scp.css",
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookShoppingCartMvcUI.bundle.scp.css",
       "PackagePath": "staticwebassets\\BookShoppingCartMvcUI.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\BookMarket\\BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\BookMarket\\BookShoppingCartMvcUI\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\BookMarket\\BookShoppingCartMvcUI\\wwwroot\\images\\NoImage.png",
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png",
+      "PackagePath": "staticwebassets\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\NoImage.png",
       "PackagePath": "staticwebassets\\images\\NoImage.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\BookMarket\\BookShoppingCartMvcUI\\wwwroot\\images\\a85cd212-9d88-4173-b7aa-32e27891b5b6.png",
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\a85cd212-9d88-4173-b7aa-32e27891b5b6.png",
       "PackagePath": "staticwebassets\\images\\a85cd212-9d88-4173-b7aa-32e27891b5b6.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\BookMarket\\BookShoppingCartMvcUI\\wwwroot\\images\\f24c86f2-0f8f-4eac-98de-2afa58429cbe.png",
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\f24c86f2-0f8f-4eac-98de-2afa58429cbe.png",
       "PackagePath": "staticwebassets\\images\\f24c86f2-0f8f-4eac-98de-2afa58429cbe.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\BookMarket\\BookShoppingCartMvcUI\\wwwroot\\images\\hobbit.jfif",
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\hobbit.jfif",
       "PackagePath": "staticwebassets\\images\\hobbit.jfif"
     },
     {

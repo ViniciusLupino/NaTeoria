@@ -31,13 +31,13 @@ namespace BookShoppingCartMvcUI.Controllers
             return View(cart);
         }
 
-        public  async Task<IActionResult> GetTotalItemInCart()
+        public async Task<IActionResult> GetTotalItemInCart()
         {
             int cartItem = await _cartRepo.GetCartItemCount();
             return Ok(cartItem);
         }
 
-        public  IActionResult Checkout()
+        public IActionResult Checkout()
         {
             return View();
         }
@@ -45,16 +45,26 @@ namespace BookShoppingCartMvcUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Checkout(CheckoutModel model)
         {
-            if (!ModelState.IsValid)
-                return View(model);
             bool isCheckedOut = await _cartRepo.DoCheckout(model);
-            if (!isCheckedOut)
-                return RedirectToAction(nameof(OrderFailure));
-            return RedirectToAction(nameof(OrderSuccess));
+            if (ModelState.IsValid)
+                return RedirectToAction(nameof(OrderSuccess));
+
+            return RedirectToAction(nameof(OrderFailure));
+
         }
 
-        public IActionResult OrderSuccess()
+        public IActionResult OrderSuccess(Order model)
         {
+            var userId = User.Identity.Name.ToLower();  // Obter o ID do usuário logado
+            var cartItems = _cartRepo.GetCartItemCount();  // Obter os itens do carrinho
+            var finalPrice = model.FinalPrice;
+            var order = new Order()
+            {
+                UserId = userId,
+                CreateDate = DateTime.Now,
+                FinalPrice = finalPrice,
+            };
+
             return View();
         }
 

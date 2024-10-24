@@ -29,9 +29,13 @@ namespace BookShoppingCartMvcUI.Models
         [Required]
         [MaxLength(30)]
         public string? PaymentMethod { get; set; }
+        public double FinalPrice = 0;
         public bool IsPaid { get; set; }
 
         public OrderStatus OrderStatus { get; set; }
-        public List<OrderDetail> OrderDetail { get; set; }
+        public ICollection<OrderDetail> OrderDetail { get; set; }
+
+        int ProdutoId { get; set; }
+        public Produto Produto { get; set; }
     }
 }

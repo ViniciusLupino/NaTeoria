@@ -4,6 +4,7 @@ using BookShoppingCartMvcUI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookShoppingCartMvcUI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241024172843_2")]
+    partial class _2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,9 +33,6 @@ namespace BookShoppingCartMvcUI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("OrderId")
-                        .HasColumnType("int");
-
                     b.Property<int>("ProdutoId")
                         .HasColumnType("int");
 
@@ -46,8 +46,6 @@ namespace BookShoppingCartMvcUI.Migrations
                         .HasColumnType("float");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
 
                     b.HasIndex("ProdutoId");
 
@@ -140,9 +138,6 @@ namespace BookShoppingCartMvcUI.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<int>("ProdutoId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -150,8 +145,6 @@ namespace BookShoppingCartMvcUI.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("OrderStatusId");
-
-                    b.HasIndex("ProdutoId1");
 
                     b.ToTable("Order");
                 });
@@ -455,10 +448,6 @@ namespace BookShoppingCartMvcUI.Migrations
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.CartDetail", b =>
                 {
-                    b.HasOne("BookShoppingCartMvcUI.Models.Order", null)
-                        .WithMany("CartDetails")
-                        .HasForeignKey("OrderId");
-
                     b.HasOne("BookShoppingCartMvcUI.Models.Produto", "Produto")
                         .WithMany("CartDetail")
                         .HasForeignKey("ProdutoId")
@@ -495,15 +484,7 @@ namespace BookShoppingCartMvcUI.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BookShoppingCartMvcUI.Models.Produto", "Produto")
-                        .WithMany()
-                        .HasForeignKey("ProdutoId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("OrderStatus");
-
-                    b.Navigation("Produto");
                 });
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.OrderDetail", b =>
@@ -594,8 +575,6 @@ namespace BookShoppingCartMvcUI.Migrations
 
             modelBuilder.Entity("BookShoppingCartMvcUI.Models.Order", b =>
                 {
-                    b.Navigation("CartDetails");
-
                     b.Navigation("OrderDetail");
                 });
 

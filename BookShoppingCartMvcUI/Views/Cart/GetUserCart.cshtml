@@ -10,9 +10,9 @@
 
         <table class="table table-striped">
             <tr>
-                <th>produto</th>
+                <th>Produto</th>
                 <th>Image</th>
-                <th>genero</th>
+                <th>Gênero</th>
                 <th>Unit Price(INR)</th>
                 <th>Total Price</th>
                 <th>Action</th>
@@ -45,7 +45,7 @@
                             <span style="border: 1px solid;padding: 8px 8px;color: red;border-radius: 5px;margin-right:4px">Out of estoque </span>
                         }
                         @* Decrement button *@
-                        <a class="btn btn-info" href="/cart/removeitem?bookid=@item.ProdutoId">-</a>
+                        <a class="btn btn-info" href="/cart/removeitem?produtoId=@item.ProdutoId">-</a>
                     </td>
                 </tr>
             }

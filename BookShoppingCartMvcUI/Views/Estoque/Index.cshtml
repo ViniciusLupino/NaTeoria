@@ -12,7 +12,7 @@
 
 <table class="table table-bordered">
   <tr>
-    <th>produto</th>
+    <th>Produto</th>
     <th>Estoque</th>
     <th>Actions</th>
   </tr>
@@ -22,7 +22,7 @@
       <td>@item.ProdutoName</td>
       <td>@item.Quantity</td>
       <td>
-         <a asp-action="ManageStock" asp-controller="Estoque" asp-route-produtoId="@item.ProdutoId" class="btn btn-info"> Update Estoque</a>
+         <a asp-action="ManageStock" asp-controller="Estoque" asp-route-produtoId="@item.ProdutoId" class="btn btn-info">Update Estoque</a>
       </td>
     </tr>
   }
