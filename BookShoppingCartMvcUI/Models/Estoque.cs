@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookShoppingCartMvcUI.Models
+namespace EcoImpulse.Models
 {
     [Table("Estoque")]
     public class Estoque

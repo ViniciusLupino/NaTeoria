@@ -1,7 +1,7 @@
-﻿namespace BookShoppingCartMvcUI.Constants;
+﻿namespace EcoImpulse.Constants;
 
 public enum PaymentMethods
 {
-    COD=1,
+    COD = 1,
     Online
 }

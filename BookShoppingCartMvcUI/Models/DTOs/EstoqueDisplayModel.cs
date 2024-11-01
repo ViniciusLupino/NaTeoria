@@ -1,4 +1,4 @@
-﻿namespace BookShoppingCartMvcUI.Models.DTOs
+﻿namespace EcoImpulse.Models.DTOs
 {
     public class EstoqueDisplayModel
     {

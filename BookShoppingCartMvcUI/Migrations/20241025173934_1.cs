@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace BookShoppingCartMvcUI.Migrations
+namespace EcoImpulse.Migrations
 {
     /// <inheritdoc />
     public partial class _1 : Migration

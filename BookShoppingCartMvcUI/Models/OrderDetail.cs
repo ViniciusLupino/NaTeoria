@@ -1,7 +1,7 @@
 ﻿using Microsoft.Build.Framework;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookShoppingCartMvcUI.Models
+namespace EcoImpulse.Models
 {
     [Table("OrderDetail")]
     public class OrderDetail

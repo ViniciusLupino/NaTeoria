@@ -1,9 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-BookShoppingCartMvcUI-377ed640-8994-42b3-b92f-881b7a9d2db2</UserSecretsId>
+    <UserSecretsId>aspnet-EcoImpulse-377ed640-8994-42b3-b92f-881b7a9d2db2</UserSecretsId>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+    <Company>Quarteto Tech Ltda.</Company>
+    <Product>EcoImpulse</Product>
+    <PackageId>ecoimpulse</PackageId>
+    <Title>EcoImpulse</Title>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Azure.Identity" Version="1.12.1" />

@@ -1,4 +1,4 @@
-﻿namespace BookShoppingCartMvcUI
+﻿namespace EcoImpulse
 {
     public interface IHomeRepository
     {

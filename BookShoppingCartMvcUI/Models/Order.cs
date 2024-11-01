@@ -1,7 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookShoppingCartMvcUI.Models
+namespace EcoImpulse.Models
 {
     [Table("Order")]
     public class Order
@@ -29,7 +30,6 @@ namespace BookShoppingCartMvcUI.Models
         [Required]
         [MaxLength(30)]
         public string? PaymentMethod { get; set; }
-        public double FinalPrice = 0;
         public bool IsPaid { get; set; }
 
         public OrderStatus OrderStatus { get; set; }

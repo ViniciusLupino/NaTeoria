@@ -8350,9 +8350,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
-      "projectName": "BookShoppingCartMvcUI",
-      "projectPath": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
+      "projectUniqueName": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\EcoImpulse.csproj",
+      "projectName": "ecoimpulse",
+      "projectPath": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\EcoImpulse.csproj",
       "packagesPath": "C:\\Users\\SENAI3EM\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\obj\\",
       "projectStyle": "PackageReference",

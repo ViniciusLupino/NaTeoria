@@ -1,7 +1,7 @@
 ﻿using Microsoft.Build.Framework;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookShoppingCartMvcUI.Models
+namespace EcoImpulse.Models
 {
     [Table("ShoppingCart")]
     public class ShoppingCart
@@ -12,6 +12,6 @@ namespace BookShoppingCartMvcUI.Models
         public bool IsDeleted { get; set; } = false;
 
         public ICollection<CartDetail> CartDetails { get; set; }
-        
+
     }
 }

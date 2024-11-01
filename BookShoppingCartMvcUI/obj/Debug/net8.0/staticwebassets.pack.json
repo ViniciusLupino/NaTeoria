@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookShoppingCartMvcUI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BookShoppingCartMvcUI.bundle.scp.css"
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ecoimpulse.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ecoimpulse.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
@@ -15,6 +15,14 @@
     {
       "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png",
       "PackagePath": "staticwebassets\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\179dcb82-f9e5-4b89-a60b-426d89c4c0f3.png",
+      "PackagePath": "staticwebassets\\images\\179dcb82-f9e5-4b89-a60b-426d89c4c0f3.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\453691fb-3488-4403-b16d-98dacb5f6b25.png",
+      "PackagePath": "staticwebassets\\images\\453691fb-3488-4403-b16d-98dacb5f6b25.png"
     },
     {
       "Id": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\wwwroot\\images\\NoImage.png",
@@ -33,20 +41,20 @@
       "PackagePath": "staticwebassets\\images\\hobbit.jfif"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ecoimpulse.props",
+      "PackagePath": "build\\ecoimpulse.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ecoimpulse.props",
+      "PackagePath": "buildMultiTargeting\\ecoimpulse.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ecoimpulse.props",
+      "PackagePath": "buildTransitive\\ecoimpulse.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ecoimpulse.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookShoppingCartMvcUI.props",
-      "PackagePath": "build\\BookShoppingCartMvcUI.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookShoppingCartMvcUI.props",
-      "PackagePath": "buildMultiTargeting\\BookShoppingCartMvcUI.props"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookShoppingCartMvcUI.props",
-      "PackagePath": "buildTransitive\\BookShoppingCartMvcUI.props"
     }
   ],
   "ElementsToRemove": []

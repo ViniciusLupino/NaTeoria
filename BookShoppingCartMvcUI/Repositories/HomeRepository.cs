@@ -2,7 +2,7 @@
 
 using Microsoft.EntityFrameworkCore;
 
-namespace BookShoppingCartMvcUI.Repositories
+namespace EcoImpulse.Repositories
 {
     public class HomeRepository : IHomeRepository
     {
@@ -21,23 +21,23 @@ namespace BookShoppingCartMvcUI.Repositories
         {
             sTerm = sTerm.ToLower();
             IEnumerable<Produto> Produtos = await (from produto in _db.Produtos
-                         join genero in _db.Generos
-                         on produto.GeneroId equals genero.Id
-                         join estoque in _db.Stocks
-                         on produto.Id equals estoque.ProdutoId
-                         into book_stocks
-                         from bookWithStock in book_stocks.DefaultIfEmpty()
-                         where string.IsNullOrWhiteSpace(sTerm) || (produto != null && produto.ProdutoName.ToLower().StartsWith(sTerm))
-                         select new Produto
-                         {
-                             Id = produto.Id,
-                             Image = produto.Image,
-                             ProdutoName = produto.ProdutoName,
-                             GeneroId = produto.GeneroId,
-                             Price = produto.Price,
-                             GeneroName = genero.GeneroName,
-                             Quantity=bookWithStock==null? 0:bookWithStock.Quantity
-                         }
+                                                   join genero in _db.Generos
+                                                   on produto.GeneroId equals genero.Id
+                                                   join estoque in _db.Stocks
+                                                   on produto.Id equals estoque.ProdutoId
+                                                   into book_stocks
+                                                   from bookWithStock in book_stocks.DefaultIfEmpty()
+                                                   where string.IsNullOrWhiteSpace(sTerm) || (produto != null && produto.ProdutoName.ToLower().StartsWith(sTerm))
+                                                   select new Produto
+                                                   {
+                                                       Id = produto.Id,
+                                                       Image = produto.Image,
+                                                       ProdutoName = produto.ProdutoName,
+                                                       GeneroId = produto.GeneroId,
+                                                       Price = produto.Price,
+                                                       GeneroName = genero.GeneroName,
+                                                       Quantity = bookWithStock == null ? 0 : bookWithStock.Quantity
+                                                   }
                          ).ToListAsync();
             if (GeneroId > 0)
             {

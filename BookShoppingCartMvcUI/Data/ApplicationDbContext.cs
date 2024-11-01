@@ -1,8 +1,7 @@
-﻿using BookShoppingCartMvcUI.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookShoppingCartMvcUI.Data
+namespace EcoImpulse.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

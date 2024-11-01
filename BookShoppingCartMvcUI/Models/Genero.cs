@@ -1,7 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookShoppingCartMvcUI.Models
+namespace EcoImpulse.Models
 {
     [Table("Genero")]
     public class Genero

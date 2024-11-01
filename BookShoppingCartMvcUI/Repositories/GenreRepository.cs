@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace BookShoppingCartMvcUI.Repositories;
+namespace EcoImpulse.Repositories;
 
 public interface IGenreRepository
 {
@@ -45,5 +45,5 @@ public class GenreRepository : IGenreRepository
         return await _context.Generos.ToListAsync();
     }
 
-    
+
 }

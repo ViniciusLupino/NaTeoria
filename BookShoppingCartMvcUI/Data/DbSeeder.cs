@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using BookShoppingCartMvcUI.Constants;
-using System;
 
-namespace BookShoppingCartMvcUI.Data
+namespace EcoImpulse.Data
 {
     public class DbSeeder
     {
@@ -27,7 +25,7 @@ namespace BookShoppingCartMvcUI.Data
             if (userInDb is null)
             {
                 await userMgr.CreateAsync(admin, "Admin@123");
-                await userMgr.AddToRoleAsync(admin,Roles.Admin.ToString());
+                await userMgr.AddToRoleAsync(admin, Roles.Admin.ToString());
             }
         }
     }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace BookShoppingCartMvcUI.Repositories
+namespace EcoImpulse.Repositories
 {
     public class StockRepository : IEstoqueRepository
     {

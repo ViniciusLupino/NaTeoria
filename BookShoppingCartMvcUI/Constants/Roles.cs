@@ -1,8 +1,8 @@
-﻿namespace BookShoppingCartMvcUI.Constants
+﻿namespace EcoImpulse.Constants
 {
     public enum Roles
     {
-        User=1,
+        User = 1,
         Admin
     }
 }

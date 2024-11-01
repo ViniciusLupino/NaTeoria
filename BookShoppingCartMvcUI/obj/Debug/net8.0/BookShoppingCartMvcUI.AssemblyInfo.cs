@@ -13,13 +13,14 @@ using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-BookShoppingCartMvcUI-377ed640-8994-42b3-b92f-881b7a9d2db2")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("BookShoppingCartMvcUI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Quarteto Tech Ltda.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e2d404ee293423637e4dbbbde24822bf0e504d8")]
-[assembly: System.Reflection.AssemblyProductAttribute("BookShoppingCartMvcUI")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e579d275823dd09806d4aae6a67d1635fd9a688")]
+[assembly: System.Reflection.AssemblyProductAttribute("EcoImpulse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookShoppingCartMvcUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("pt-BR")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

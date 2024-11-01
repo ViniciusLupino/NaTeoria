@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "++ootf//3i85sS7xHKBL6yv7nVgaI1XGd+5/MgB42TlEWG9NnpqryVV0N9zxGPAGJbzYmMyBmHMO9L/TPZlRJA==",
+  "dgSpecHash": "eWIAxeYXBAF8cbx3ni0p9YLn1QmfLis9c/RssFVZJWaH0NvB83v95P4nrZoR67g9Cgs6jtP0fyqsgr3BCUNufg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
+  "projectFilePath": "C:\\Users\\SENAI3EM\\Desktop\\Cart\\BookShoppingCartMvcUI\\EcoImpulse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.core\\1.40.0\\azure.core.1.40.0.nupkg.sha512",
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.identity\\1.12.1\\azure.identity.1.12.1.nupkg.sha512",

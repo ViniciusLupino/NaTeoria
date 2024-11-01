@@ -1,5 +1,5 @@
-﻿global using BookShoppingCartMvcUI.Data;
-global using BookShoppingCartMvcUI.Models;
-global using BookShoppingCartMvcUI.Models.DTOs;
-global using BookShoppingCartMvcUI.Repositories;
-global using BookShoppingCartMvcUI.Constants;
+﻿global using EcoImpulse.Constants;
+global using EcoImpulse.Data;
+global using EcoImpulse.Models;
+global using EcoImpulse.Models.DTOs;
+global using EcoImpulse.Repositories;

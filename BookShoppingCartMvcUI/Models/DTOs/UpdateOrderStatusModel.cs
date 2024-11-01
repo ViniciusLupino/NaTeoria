@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
-namespace BookShoppingCartMvcUI.Models.DTOs;
+namespace EcoImpulse.Models.DTOs;
 
 public class UpdateOrderStatusModel
 {

@@ -1,9 +1,9 @@
-﻿using BookShoppingCartMvcUI.Shared;
+﻿using EcoImpulse.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace BookShoppingCartMvcUI.Controllers;
+namespace EcoImpulse.Controllers;
 
 [Authorize(Roles = nameof(Roles.Admin))]
 public class ProdutoController : Controller
@@ -53,12 +53,12 @@ public class ProdutoController : Controller
         {
             if (produtoToAdd.ImageFile != null)
             {
-                if(produtoToAdd.ImageFile.Length> 1 * 1024 * 1024)
+                if (produtoToAdd.ImageFile.Length > 1 * 1024 * 1024)
                 {
                     throw new InvalidOperationException("Image file can not exceed 1 MB");
                 }
-                string[] allowedExtensions = [".jpeg",".jpg",".png"];
-                string imageName=await _fileService.SaveFile(produtoToAdd.ImageFile, allowedExtensions);
+                string[] allowedExtensions = [".jpeg", ".jpg", ".png"];
+                string imageName = await _fileService.SaveFile(produtoToAdd.ImageFile, allowedExtensions);
                 produtoToAdd.Image = imageName;
             }
             // manual mapping of BookDTO -> produto
@@ -76,7 +76,7 @@ public class ProdutoController : Controller
         }
         catch (InvalidOperationException ex)
         {
-            TempData["errorMessage"]= ex.Message;
+            TempData["errorMessage"] = ex.Message;
             return View(produtoToAdd);
         }
         catch (FileNotFoundException ex)
@@ -94,7 +94,7 @@ public class ProdutoController : Controller
     public async Task<IActionResult> UpdateProduto(int id)
     {
         var produto = await _prodRep.GetProdutoById(id);
-        if(produto==null)
+        if (produto == null)
         {
             TempData["errorMessage"] = $"produto with the id: {id} does not found";
             return RedirectToAction(nameof(Index));
@@ -103,15 +103,15 @@ public class ProdutoController : Controller
         {
             Text = genero.GeneroName,
             Value = genero.Id.ToString(),
-            Selected=genero.Id==produto.GeneroId
+            Selected = genero.Id == produto.GeneroId
         });
-        ProdutoDTO produtoToUpdate = new() 
-        { 
+        ProdutoDTO produtoToUpdate = new()
+        {
             GenreList = genreSelectList,
-            ProdutoName=produto.ProdutoName,
-            GeneroId=produto.GeneroId,
-            Price=produto.Price,
-            Image=produto.Image 
+            ProdutoName = produto.ProdutoName,
+            GeneroId = produto.GeneroId,
+            Price = produto.Price,
+            Image = produto.Image
         };
         return View(produtoToUpdate);
     }
@@ -123,7 +123,7 @@ public class ProdutoController : Controller
         {
             Text = genero.GeneroName,
             Value = genero.Id.ToString(),
-            Selected=genero.Id==produtoToUpdate.GeneroId
+            Selected = genero.Id == produtoToUpdate.GeneroId
         });
         produtoToUpdate.GenreList = genreSelectList;
 
@@ -141,20 +141,20 @@ public class ProdutoController : Controller
                 }
                 string[] allowedExtensions = [".jpeg", ".jpg", ".png"];
                 string imageName = await _fileService.SaveFile(produtoToUpdate.ImageFile, allowedExtensions);
-                
+
                 imagemAntiga = produtoToUpdate.Image;
                 produtoToUpdate.Image = imageName;
             }
             Produto produto = new()
             {
-                Id=produtoToUpdate.Id,
+                Id = produtoToUpdate.Id,
                 ProdutoName = produtoToUpdate.ProdutoName,
                 GeneroId = produtoToUpdate.GeneroId,
                 Price = produtoToUpdate.Price,
                 Image = produtoToUpdate.Image
             };
             await _prodRep.UpdateProdutos(produto);
-            if(!string.IsNullOrWhiteSpace(imagemAntiga))
+            if (!string.IsNullOrWhiteSpace(imagemAntiga))
             {
                 _fileService.DeleteFile(imagemAntiga);
             }

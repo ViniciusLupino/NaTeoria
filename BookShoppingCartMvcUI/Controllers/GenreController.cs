@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookShoppingCartMvcUI.Controllers
+namespace EcoImpulse.Controllers
 {
     [Authorize(Roles = nameof(Roles.Admin))]
     public class GenreController : Controller
@@ -27,7 +27,7 @@ namespace BookShoppingCartMvcUI.Controllers
         [HttpPost]
         public async Task<IActionResult> AddGenre(GenreDTO genero)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return View(genero);
             }
@@ -38,7 +38,7 @@ namespace BookShoppingCartMvcUI.Controllers
                 TempData["successMessage"] = "genero added successfully";
                 return RedirectToAction(nameof(AddGenre));
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 TempData["errorMessage"] = "genero could not added!";
                 return View(genero);

@@ -1,9 +1,7 @@
-﻿using BookShoppingCartMvcUI.Models;
-using BookShoppingCartMvcUI.Models.DTOs;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace BookShoppingCartMvcUI.Controllers
+namespace EcoImpulse.Controllers
 {
     public class HomeController : Controller
     {
@@ -16,16 +14,16 @@ namespace BookShoppingCartMvcUI.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index(string sterm="",int GeneroId=0)
+        public async Task<IActionResult> Index(string sterm = "", int GeneroId = 0)
         {
             IEnumerable<Produto> Produtos = await _homeRepository.GetProdutos(sterm, GeneroId);
             IEnumerable<Genero> Generos = await _homeRepository.Generos();
             ProdutoDisplayModel bookModel = new ProdutoDisplayModel
             {
-              Produtos=Produtos,
-              Generos=Generos,
-              STerm=sterm,
-              GeneroId=GeneroId
+                Produtos = Produtos,
+                Generos = Generos,
+                STerm = sterm,
+                GeneroId = GeneroId
             };
             return View(bookModel);
         }

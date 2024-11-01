@@ -1,4 +1,4 @@
-﻿namespace BookShoppingCartMvcUI.Shared;
+﻿namespace EcoImpulse.Shared;
 
 public interface IFileService
 {

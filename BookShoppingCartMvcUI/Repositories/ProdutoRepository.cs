@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace BookShoppingCartMvcUI.Repositories
+namespace EcoImpulse.Repositories
 {
     public interface IProdutoRepository
     {
@@ -39,6 +39,6 @@ namespace BookShoppingCartMvcUI.Repositories
 
         public async Task<Produto?> GetProdutoById(int id) => await _context.Produtos.FindAsync(id);
 
-        public async Task<IEnumerable<Produto>> GetProdutos() => await _context.Produtos.Include(a=>a.Genero).ToListAsync();
+        public async Task<IEnumerable<Produto>> GetProdutos() => await _context.Produtos.Include(a => a.Genero).ToListAsync();
     }
 }

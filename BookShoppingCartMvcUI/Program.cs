@@ -1,5 +1,5 @@
-using BookShoppingCartMvcUI;
-using BookShoppingCartMvcUI.Shared;
+using EcoImpulse;
+using EcoImpulse.Shared;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -39,6 +39,7 @@ builder.Services.AddTransient<IGenreRepository, GenreRepository>();
 builder.Services.AddTransient<IFileService, FileService>();
 builder.Services.AddTransient<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddTransient<IReportRepository, ReportRepository>();
+builder.Services.AddTransient<IUserOrderRepository, UserOrderRepository>();
 
 var app = builder.Build();
 

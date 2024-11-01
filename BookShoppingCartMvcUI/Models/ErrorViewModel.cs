@@ -1,4 +1,4 @@
-namespace BookShoppingCartMvcUI.Models
+namespace EcoImpulse.Models
 {
     public class ErrorViewModel
     {

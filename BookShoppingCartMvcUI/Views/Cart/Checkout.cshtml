@@ -35,7 +35,7 @@
         <span class="mr-2">COD*</span>
         <select asp-for="PaymentMethod" class="form-control">
             <option value="">Select Payment Method</option>
-            @foreach (var method in Enum.GetValues(typeof(BookShoppingCartMvcUI.Constants.PaymentMethods)))
+            @foreach (var method in Enum.GetValues(typeof(EcoImpulse.Constants.PaymentMethods)))
             {
                 <option value="@method.ToString()">@method.ToString()</option>
 
@@ -46,6 +46,5 @@
 
     <div class="py-2">
         <button type="submit" class="btn btn-info">Next</button>
-
     </div>
 </form>

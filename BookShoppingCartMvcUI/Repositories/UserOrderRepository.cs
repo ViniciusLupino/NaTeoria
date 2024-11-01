@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookShoppingCartMvcUI.Repositories
+namespace EcoImpulse.Repositories
 {
     public class UserOrderRepository : IUserOrderRepository
     {
@@ -9,10 +9,9 @@ namespace BookShoppingCartMvcUI.Repositories
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly UserManager<IdentityUser> _userManager;
 
-
         public UserOrderRepository(ApplicationDbContext db,
             UserManager<IdentityUser> userManager,
-             IHttpContextAccessor httpContextAccessor)
+            IHttpContextAccessor httpContextAccessor)
         {
             _db = db;
             _httpContextAccessor = httpContextAccessor;
@@ -24,7 +23,7 @@ namespace BookShoppingCartMvcUI.Repositories
             var order = await _db.Orders.FindAsync(data.OrderId);
             if (order == null)
             {
-                throw new InvalidOperationException($"order withi id:{data.OrderId} does not found");
+                throw new InvalidOperationException($"Order with id: {data.OrderId} not found");
             }
             order.OrderStatusId = data.OrderStatusId;
             await _db.SaveChangesAsync();
@@ -45,7 +44,7 @@ namespace BookShoppingCartMvcUI.Repositories
             var order = await _db.Orders.FindAsync(orderId);
             if (order == null)
             {
-                throw new InvalidOperationException($"order withi id:{orderId} does not found");
+                throw new InvalidOperationException($"Order with id: {orderId} not found");
             }
             order.IsPaid = !order.IsPaid;
             await _db.SaveChangesAsync();
@@ -58,6 +57,8 @@ namespace BookShoppingCartMvcUI.Repositories
                            .Include(x => x.OrderDetail)
                            .ThenInclude(x => x.produto)
                            .ThenInclude(x => x.Genero).AsQueryable();
+
+
             if (!getAll)
             {
                 var userId = GetUserId();
@@ -67,14 +68,22 @@ namespace BookShoppingCartMvcUI.Repositories
                 return await orders.ToListAsync();
             }
 
+            await _db.SaveChangesAsync();
+
             return await orders.ToListAsync();
         }
 
         private string GetUserId()
         {
             var principal = _httpContextAccessor.HttpContext.User;
-            string userId = _userManager.GetUserId(principal);
-            return userId;
+            return _userManager.GetUserId(principal);
+        }
+
+        public async Task<int> CreateOrder(Order order)
+        {
+            await _db.Orders.AddAsync(order);
+            await _db.SaveChangesAsync();
+            return order.Id; // Retorna o ID do pedido criado
         }
     }
 }
