@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YrM9LywIYmZ/mXCUb1F6pLoZ1l7u95Q54osEkFkZMfBmgs4vv7kYT3uwkLDIn2xgC6cV4HXaAqyNgLwRZOAqsA==",
+  "dgSpecHash": "lELtGjDeECVeBLzaYXxJE3JeaLpXJjDxtATLL/2QALF5ssA7Gp9kNUgpVxGfoqNhPYUrGdOi07fzJken1qJeWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
+  "projectFilePath": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.core\\1.40.0\\azure.core.1.40.0.nupkg.sha512",
     "C:\\Users\\SENAI3EM\\.nuget\\packages\\azure.identity\\1.12.1\\azure.identity.1.12.1.nupkg.sha512",

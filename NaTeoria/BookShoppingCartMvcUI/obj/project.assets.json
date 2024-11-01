@@ -8350,11 +8350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
+      "projectUniqueName": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
       "projectName": "BookShoppingCartMvcUI",
-      "projectPath": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
+      "projectPath": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj",
       "packagesPath": "C:\\Users\\SENAI3EM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\obj\\",
+      "outputPath": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
