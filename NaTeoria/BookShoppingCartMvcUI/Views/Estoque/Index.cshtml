@@ -1,0 +1,39 @@
+﻿@model IEnumerable<EstoqueDisplayModel>
+@{
+    Layout = "_AdminLayout";
+}
+<h2>Stocks</h2>
+
+<form asp-action="Index" method="get" class="my-4 d-flex gap-2">
+    <input type="text" name="sTerm" class="form-control w-25" placeholder="Buscar por produto" style="border-color: #2c3e50;" />
+    <button type="submit" class="btn" style="background-color: #2c3e50; color: white;">Buscar</button>
+    <a asp-action="Index" asp-controller="Estoque" class="btn" style="background-color: #7B8A8B; color: white;">Limpar</a>
+</form>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover align-middle" style="border-color: #2c3e50;">
+        <thead style="background-color: #2c3e50; color: white;">
+            <tr>
+                <th scope="col">Produto</th>
+                <th scope="col">Estoque</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="font-weight: bold; color: #2c3e50;">@item.ProdutoName</td>
+                    <td style="color: #2c3e50;">@item.Quantity</td>
+                    <td>
+                        <a asp-action="ManageStock" asp-controller="Estoque" asp-route-produtoId="@item.ProdutoId" class="btn" style="background-color: #2c3e50; color: white;">
+                            Atualizar Estoque
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

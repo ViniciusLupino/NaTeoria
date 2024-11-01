@@ -1,0 +1,40 @@
+﻿@model ProdutoDTO
+@{
+    Layout = "_AdminLayout";
+}
+<div style="max-width: 600px; margin: auto;">
+    <h2 class="text-center" style="color: #2c3e50; font-weight: bold; margin-bottom: 20px;">Adicionar Produto</h2>
+    <form asp-action="AddProduto" enctype="multipart/form-data" style="border: 1px solid #2c3e50; border-radius: 8px; padding: 20px; background-color: #ffffff;">
+
+        <div class="my-2">
+            <label style="color: #2c3e50; font-weight: bold;">Produto*</label>
+            <input type="text" class="form-control" asp-for="ProdutoName" style="border: 1px solid #7B8A8B; border-radius: 5px;" />
+            <span asp-validation-for="ProdutoName" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label style="color: #2c3e50; font-weight: bold;">Gênero*</label>
+            <select class="form-control" asp-for="GeneroId" asp-items="Model.GenreList" style="border: 1px solid #7B8A8B; border-radius: 5px;">
+                <option value="">Selecione o gênero</option>
+            </select>
+            <span asp-validation-for="GeneroId" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label style="color: #2c3e50; font-weight: bold;">Preço*</label>
+            <input type="number" class="form-control" asp-for="Price" style="border: 1px solid #7B8A8B; border-radius: 5px;" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="my-2">
+            <label style="color: #2c3e50; font-weight: bold;">Imagem</label>
+            <input type="file" class="form-control" asp-for="ImageFile" style="border: 1px solid #7B8A8B; border-radius: 5px;" />
+        </div>
+
+        <div class="my-2 text-center">
+            <button type="submit" class="btn" style="background-color: #123142; color: white; padding: 10px 20px; border-radius: 5px; border: none;">Adicionar</button>
+            <a asp-action="Index" asp-controller="Produto" class="btn" style="background-color:#7B8A8B; color: white; padding: 10px 20px; border-radius: 5px; border: none; margin-right: 10px;">Voltar</a>
+        </div>
+    </form>
+</div>
+

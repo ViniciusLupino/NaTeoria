@@ -1,0 +1,101 @@
+﻿    @model ProdutoDisplayModel
+@{
+
+}
+
+<div class="container my-4">
+    <h1 class="text-center">MARKETPLACE</h1>
+
+    <div class="text-center p-3" style="background-color: #2c3e50; color: white; border-radius: 10px; font-family: 'Comic Sans MS', cursive, sans-serif; font-size: 1rem;">
+        <p class="mb-1" style="font-weight: bold;">💚 O lugar perfeito para dar um novo lar aos seus itens! 💚</p>
+        <p class="mb-0" style="font-size: 0.9rem;">
+            Lembre-se: anuncie produtos em bom estado e inclua todas as informações para doação, troca ou venda (como o valor, o que você quer em troca, tamanhos e outros detalhes).
+        </p>
+    </div>
+
+    <div class="my-2">
+        <form asp-action="Index" class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+                <label class="visually-hidden" for="GeneroId">Gêneros</label>
+                <select class="form-select" id="GeneroId" name="GeneroId">
+                    <option selected>Gênero</option>
+                    @foreach (var genero in Model.Generos)
+                    {
+                        <option selected="@(genero.Id == Model.GeneroId)" value="@genero.Id">@genero.GeneroName</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-12">
+                <label class="visually-hidden" for="sterm">Search by title</label>
+                <div class="input-group">
+                    <div class="input-group-text"></div>
+                    <input type="text" class="form-control" value="@Model.STerm" id="sterm" name="sterm" placeholder="Search by title">
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn" style="background-color: #2C3E50; color: white;">Search</button>
+                <a href="/Home/Index" class="btn btn-dark">Reset</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="row mt-4">
+        @foreach (var produto in Model.Produtos)
+        {
+            <div class="col-lg-3 col-md-4 col-6 mb-4">
+                <div class="card h-100" style="border: none; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    @if (string.IsNullOrEmpty(produto.Image))
+                    {
+                        <img style="width:100%;height:180px; border-top-left-radius: 10px; border-top-right-radius: 10px;" src="/images/NoImage.png" class="card-img-top" alt="Produto sem imagem">
+                    }
+                    else
+                    {
+                        <img style="width:100%;height:180px; border-top-left-radius: 10px; border-top-right-radius: 10px;" src="/images/@produto.Image" class="card-img-top" alt="Imagem do produto">
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #2c3e50; font-weight: bold;">@produto.ProdutoName</h5>
+                        <p class="card-text">
+                            <b>Gênero: </b>@produto.GeneroName <br />
+                            <b>Preço: </b>@produto.Price
+                        </p>
+                        @if (produto.Quantity > 0)
+                        {
+                            <button type="button" onclick="add(@produto.Id)" class="btn" style="background-color: #2C3E50; color: white;">Adicionar ao carrinho</button>
+                        }
+                        else
+                        {
+                            <span style="border: 1px solid;padding: 5px 8px;color: red;border-radius: 5px;">Esgotado</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        async function add(produtoId) {
+            var usernameEl = document.getElementById("username");
+            if (usernameEl == null) {
+                window.location.href = "/Identity/Account/Login";
+            }
+            try {
+                var response = await fetch(`/Cart/AddItem?produtoId=${produtoId}`);
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+                    window.location.href = "#cartCount";
+                }
+            }
+            catch (err) {
+                console.log(err);
+            }
+        }
+    </script>
+}
+
+

@@ -1,0 +1,47 @@
+﻿@model CheckoutModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<h2 style="color: #2c3e50; text-align: center;">Checkout</h2>
+<form asp-action="Checkout" style="width: 90%; margin: auto;">
+    <div class="py-3">
+        <label asp-for="Name" style="font-weight: bold;">Nome*</label>
+        <input type="text" class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="py-3">
+        <label asp-for="Email" style="font-weight: bold;">Email*</label>
+        <input type="text" class="form-control" asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="py-3">
+        <label asp-for="MobileNumber" style="font-weight: bold;">Número de Celular*</label>
+        <input type="text" class="form-control" asp-for="MobileNumber" />
+        <span asp-validation-for="MobileNumber" class="text-danger"></span>
+    </div>
+
+    <div class="py-3">
+        <label asp-for="Address" style="font-weight: bold;">Endereço*</label>
+        <textarea class="form-control" asp-for="Address" rows="5"></textarea>
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="py-3">
+        <label style="font-weight: bold;">Método de Pagamento*</label>
+        <select asp-for="PaymentMethod" class="form-control">
+            <option value="">Selecionar Método de Pagamento</option>
+            @foreach (var method in Enum.GetValues(typeof(BookShoppingCartMvcUI.Constants.PaymentMethods)))
+            {
+                <option value="@method.ToString()">@method.ToString()</option>
+            }
+        </select>
+        <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+    </div>
+
+    <div class="py-3">
+        <button type="submit" class="btn" style="background-color: #2C3E50; color: white;">Próximo</button>
+    </div>
+</form>

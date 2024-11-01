@@ -1,0 +1,74 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "GetUserCart";
+}
+
+<div style="width:90%;margin:auto" class="mt-4">
+    @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
+    {
+        <h5 style="color: #2c3e50; font-weight: bold; font-size: 1.5rem; text-align: center; margin-bottom: 20px;">Meu Carrinho</h5>
+
+        <table class="table table-striped" style="border: 1px solid #2c3e50; margin-bottom: 20px;">
+            <thead style="background-color: #2c3e50; color: white;">
+                <tr>
+                    <th>Produto</th>
+                    <th>Imagem</th>
+                    <th>Gênero</th>
+                    <th>Preço Unitário (R$)</th>
+                    <th>Total</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartDetails)
+                {
+                    <tr>
+                        <td>@item.Produto.ProdutoName</td>
+                        <td>
+                            @if (string.IsNullOrEmpty(item.Produto.Image))
+                            {
+                                <img src="/images/NoImage.png" style="width:80px;height:100px" />
+                            }
+                            else
+                            {
+                                <img src="/images/@item.Produto.Image" style="width:80px;height:100px" />
+                            }
+                        </td>
+                        <td>@item.Produto.Genero.GeneroName</td>
+                        <td>R$ @item.Produto.Price.ToString("F2") X @item.Quantity</td>
+                        <td>R$ @((item.Produto.Price * item.Quantity).ToString("F2"))</td>
+                        <td>
+                            @if (item.Quantity < item.Produto.Estoque.Quantity)
+                            {
+                                <a class="btn" style="background-color: #2C3E50; color: white; margin-right: 5px;" href="/Cart/AddItem?produtoId=@item.ProdutoId&&redirect=1">+</a>
+                            }
+                            else
+                            {
+                                <span style="border: 1px solid;padding: 8px 8px;color: red;border-radius: 5px;margin-right:4px">Fora de estoque</span>
+                            }
+                            <a class="btn" style="background-color: #2C3E50; color: white;" href="/cart/removeitem?produtoId=@item.ProdutoId">-</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="my-2" style="font-weight: bold; margin-bottom: 20px;">
+            <h5>Total (R$): R$ @(Model.CartDetails.Select(item => item.Produto.Price * item.Quantity).Sum().ToString("F2"))</h5>
+        </div>
+
+        <div class="my-2" style="margin-bottom: 20px;">
+            <a class="btn" style="background-color: #123142; color: white;" href="/Cart/Checkout">Checkout</a>
+        </div>
+    }
+    else
+    {
+        <h5 style="color: #7B8A8B; text-align: center;">O carrinho está vazio</h5>
+    }
+</div>
+
+
+
+
+
+

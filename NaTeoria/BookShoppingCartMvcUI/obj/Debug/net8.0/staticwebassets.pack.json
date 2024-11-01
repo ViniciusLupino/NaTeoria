@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookShoppingCartMvcUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookShoppingCartMvcUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png",
+      "PackagePath": "staticwebassets\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\3e796717-0141-4c1b-a914-a4a0e5a869b0.jpg",
+      "PackagePath": "staticwebassets\\images\\3e796717-0141-4c1b-a914-a4a0e5a869b0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\513eafc7-4ea2-4748-97bd-18ff7ea998b1.png",
+      "PackagePath": "staticwebassets\\images\\513eafc7-4ea2-4748-97bd-18ff7ea998b1.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\69545ee0-58b1-42bc-986e-af6a98f12204.jpg",
+      "PackagePath": "staticwebassets\\images\\69545ee0-58b1-42bc-986e-af6a98f12204.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\83752689-22d0-4a27-8777-50b4743bb01d.jpg",
+      "PackagePath": "staticwebassets\\images\\83752689-22d0-4a27-8777-50b4743bb01d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\NoImage.png",
+      "PackagePath": "staticwebassets\\images\\NoImage.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\a85cd212-9d88-4173-b7aa-32e27891b5b6.png",
+      "PackagePath": "staticwebassets\\images\\a85cd212-9d88-4173-b7aa-32e27891b5b6.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\e8c4a387-5dea-48c1-b017-48253f594ba2.jpg",
+      "PackagePath": "staticwebassets\\images\\e8c4a387-5dea-48c1-b017-48253f594ba2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\f24c86f2-0f8f-4eac-98de-2afa58429cbe.png",
+      "PackagePath": "staticwebassets\\images\\f24c86f2-0f8f-4eac-98de-2afa58429cbe.png"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria-master\\BookShoppingCartMvcUI\\wwwroot\\images\\hobbit.jfif",
+      "PackagePath": "staticwebassets\\images\\hobbit.jfif"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookShoppingCartMvcUI.props",
+      "PackagePath": "build\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildMultiTargeting\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildTransitive\\BookShoppingCartMvcUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
