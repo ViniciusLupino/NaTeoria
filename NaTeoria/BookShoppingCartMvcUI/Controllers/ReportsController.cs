@@ -22,7 +22,7 @@ public class ReportsController : Controller
         }
         catch (Exception ex)
         {
-            TempData["errorMessage"] = "Something went wrong";
+            TempData["errorMessage"] = "Algo deu errado";
             return RedirectToAction("Index", "Home");
         }
     }

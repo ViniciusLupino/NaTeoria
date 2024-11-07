@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookShoppingCartMvcUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+479f6db54661c1063b738dcf257b8251b721bb25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4fa3796aa224d5827475d47ef4a60c74ff510ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookShoppingCartMvcUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookShoppingCartMvcUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

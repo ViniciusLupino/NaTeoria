@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\3e796717-0141-4c1b-a914-a4a0e5a869b0.jpg",
-      "PackagePath": "staticwebassets\\images\\3e796717-0141-4c1b-a914-a4a0e5a869b0.jpg"
-    },
-    {
       "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\513eafc7-4ea2-4748-97bd-18ff7ea998b1.png",
       "PackagePath": "staticwebassets\\images\\513eafc7-4ea2-4748-97bd-18ff7ea998b1.png"
     },
@@ -31,6 +27,10 @@
     {
       "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\83752689-22d0-4a27-8777-50b4743bb01d.jpg",
       "PackagePath": "staticwebassets\\images\\83752689-22d0-4a27-8777-50b4743bb01d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\88cf9d39-46a6-435c-87dc-93543c6f3ddc.jpg",
+      "PackagePath": "staticwebassets\\images\\88cf9d39-46a6-435c-87dc-93543c6f3ddc.jpg"
     },
     {
       "Id": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\FundoKb.jpg",

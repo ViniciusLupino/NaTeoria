@@ -1,15 +1,15 @@
 ﻿@page
 @model DeletePersonalDataModel
 @{
-    ViewData["Title"] = "Delete Personal Data";
+    ViewData["Title"] = "Excluir Dados Pessoais";
     ViewData["ActivePage"] = ManageNavPages.PersonalData;
 }
 
 <h3>@ViewData["Title"]</h3>
 
-<div class="alert alert-warning" role="alert">
-    <p>
-        <strong>Deleting this data will permanently remove your account, and this cannot be recovered.</strong>
+<div class="alert alert-warning" role="alert" style="font-size: 16px; padding: 15px; background-color: #5D7F94; border-color: #3A5A72;">
+    <p style="font-weight: bold;">
+        <strong>Excluir esses dados removerá permanentemente sua conta, e isso não poderá ser recuperado.</strong>
     </p>
 </div>
 
@@ -19,14 +19,15 @@
         @if (Model.RequirePassword)
         {
             <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Please enter your password." />
-                <label asp-for="Input.Password" class="form-label"></label>
+                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Digite sua senha" />
+                <label asp-for="Input.Password" class="form-label" style="color: #2C3E50;"></label>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
         }
-        <button class="w-100 btn btn-lg btn-danger" type="submit">Delete data and close my account</button>
+        <button class="w-100 btn btn-lg btn-primary" type="submit" style="background-color: #2C3E50; border-color: #1A2A37; font-size: 16px; padding: 15px;">Excluir dados e fechar minha conta</button>
     </form>
 </div>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

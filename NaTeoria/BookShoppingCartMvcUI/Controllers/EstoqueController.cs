@@ -43,7 +43,7 @@ namespace BookShoppingCartMvcUI.Controllers
             }
             catch (Exception ex)
             {
-                TempData["errorMessage"] = "Something went wrong!!";
+                TempData["errorMessage"] = "Algo deu errado!!";
             }
 
             return RedirectToAction(nameof(Index));

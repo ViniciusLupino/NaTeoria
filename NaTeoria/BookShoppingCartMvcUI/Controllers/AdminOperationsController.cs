@@ -73,7 +73,7 @@ public class AdminOperationsController : Controller
         catch (Exception ex)
         {
             // catch exception here
-            TempData["msg"] = "Something went wrong";
+            TempData["msg"] = "Algo deu errado";
         }
         return RedirectToAction(nameof(UpdateOrderStatus), new { orderId = data.OrderId });
     }

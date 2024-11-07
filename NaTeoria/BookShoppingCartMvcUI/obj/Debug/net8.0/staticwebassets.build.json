@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tds0e0e4d3AzbkzH2XYQshORcAZiFeBDktTH30hd8zU=",
+  "Hash": "u8e9LY7hXAhe1WHCgGAhuPYz/fYsJvYu/6o1e5ruoNQ=",
   "Source": "BookShoppingCartMvcUI",
   "BasePath": "_content/BookShoppingCartMvcUI",
   "Mode": "Default",
@@ -1290,25 +1290,6 @@
       "OriginalItemSpec": "wwwroot\\images\\09ce155f-ff10-4c3a-ba01-52dfa0cc2d44.png"
     },
     {
-      "Identity": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\3e796717-0141-4c1b-a914-a4a0e5a869b0.jpg",
-      "SourceId": "BookShoppingCartMvcUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\",
-      "BasePath": "_content/BookShoppingCartMvcUI",
-      "RelativePath": "images/3e796717-0141-4c1b-a914-a4a0e5a869b0.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\3e796717-0141-4c1b-a914-a4a0e5a869b0.jpg"
-    },
-    {
       "Identity": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\513eafc7-4ea2-4748-97bd-18ff7ea998b1.png",
       "SourceId": "BookShoppingCartMvcUI",
       "SourceType": "Discovered",
@@ -1364,6 +1345,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\83752689-22d0-4a27-8777-50b4743bb01d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\88cf9d39-46a6-435c-87dc-93543c6f3ddc.jpg",
+      "SourceId": "BookShoppingCartMvcUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\",
+      "BasePath": "_content/BookShoppingCartMvcUI",
+      "RelativePath": "images/88cf9d39-46a6-435c-87dc-93543c6f3ddc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\88cf9d39-46a6-435c-87dc-93543c6f3ddc.jpg"
     },
     {
       "Identity": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\images\\a85cd212-9d88-4173-b7aa-32e27891b5b6.png",
