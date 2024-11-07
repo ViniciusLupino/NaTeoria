@@ -20,17 +20,19 @@
         </h2>
         <hr style="border-top: 1px solid #ddd; margin: 20px 0;" />
 
-        <div style="display: flex; margin: 0 -15px;">
-            <div style="padding: 15px; background-color: #eaeaea; border-radius: 5px; width: 25%;">
+        <div style="display: flex; flex-wrap: wrap; margin: 0 -15px;">
+            <div style="padding: 15px; background-color: #eaeaea; border-radius: 5px; width: 100%; max-width: 25%; flex: 1 1 100%;">
                 <partial name="_ManageNav" />
             </div>
 
-            <div style="padding: 15px; background-color: #ffffff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 75%;">
+            <div style="padding: 15px; background-color: #ffffff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 100%; max-width: 75%; flex: 1 1 100%;">
                 @RenderBody()
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 

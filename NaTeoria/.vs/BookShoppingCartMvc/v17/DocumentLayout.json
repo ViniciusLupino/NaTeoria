@@ -3,6 +3,66 @@
   "WorkspaceRootPath": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\migrations\\20241101105145_banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\migrations\\20241101105145_banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\estoque\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\estoque\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\reports\\topfivesellingbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\reports\\topfivesellingbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -51,30 +111,6 @@
       "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\cart\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\migrations\\20241101105145_banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\migrations\\20241101105145_banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\genre\\addgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\genre\\addgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -91,20 +127,12 @@
       "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\cart\\orderfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\estoque\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\estoque\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\estoque\\managestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\estoque\\managestock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|solutionrelative:bookshoppingcartmvcui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5001577-BC72-4719-A300-461E318E9744}|BookShoppingCartMvcUI\\BookShoppingCartMvcUI.csproj|c:\\users\\senai3em\\downloads\\nateoria-master\\nateoria\\bookshoppingcartmvcui\\views\\produto\\addproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -142,24 +170,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TopFiveSellingBooks.cshtml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAACwAAAAXAAAA",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAlwB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:45:08.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:52:18.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241101105145_banana.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAApwCEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:51:45.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T12:11:08.206Z",
+              "WhenOpened": "2024-11-01T16:19:49.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T15:52:41.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T16:25:26.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAApwFEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T10:59:22.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:00:29.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwHkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:48:28.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAIYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:45:47.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ReportsController.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Controllers\\ReportsController.cs",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Controllers\\ReportsController.cs",
@@ -172,7 +317,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
+              "Title": "TopFiveSellingBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Reports\\TopFiveSellingBooks.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T12:11:08.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T12:15:59.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T12:18:47.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwBMAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:18:59.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "EstoqueController.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Controllers\\EstoqueController.cs",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Controllers\\EstoqueController.cs",
@@ -185,20 +382,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T12:09:32.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T12:19:05.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AdminOperationsController.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Controllers\\AdminOperationsController.cs",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Controllers\\AdminOperationsController.cs",
               "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Controllers\\AdminOperationsController.cs",
               "RelativeToolTip": "BookShoppingCartMvcUI\\Controllers\\AdminOperationsController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEsAAAAvAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAIBJwEsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T12:10:00.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "PersonalData.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
@@ -211,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "DownloadPersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
@@ -224,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "DeletePersonalData.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
@@ -237,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "ResetAuthenticator.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
@@ -250,20 +473,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "EnableAuthenticator.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
               "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
               "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAsAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-07T11:12:56.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "ResetAuthenticator.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
@@ -276,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 25,
               "Title": "ExternalLogins.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
@@ -289,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "OrderSuccess.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Cart\\OrderSuccess.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Cart\\OrderSuccess.cshtml",
@@ -302,72 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T16:25:26.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAApwBEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T15:52:41.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAApwBMAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T16:19:49.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241101105145_banana.cs",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Migrations\\20241101105145_banana.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAApwCQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:51:45.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DbSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Data\\DbSeeder.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:52:18.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "ManageStock.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Estoque\\ManageStock.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Estoque\\ManageStock.cshtml",
@@ -380,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "UpdateGenre.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Genre\\UpdateGenre.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Genre\\UpdateGenre.cshtml",
@@ -393,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "AddGenre.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Genre\\AddGenre.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Genre\\AddGenre.cshtml",
@@ -406,33 +564,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "UpdateProduto.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Produto\\UpdateProduto.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Produto\\UpdateProduto.cshtml",
               "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Produto\\UpdateProduto.cshtml",
               "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Produto\\UpdateProduto.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAABHAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAIBJwCkAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T13:43:15.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAgwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:00:29.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "GetUserCart.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Cart\\GetUserCart.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Cart\\GetUserCart.cshtml",
@@ -445,20 +590,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "OrderFailure.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Cart\\OrderFailure.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Cart\\OrderFailure.cshtml",
               "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Cart\\OrderFailure.cshtml",
               "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Cart\\OrderFailure.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBIAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T16:52:14.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "AddProduto.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Produto\\AddProduto.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Produto\\AddProduto.cshtml",
@@ -471,33 +616,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Estoque\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T12:09:32.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Genre\\Index.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Genre\\Index.cshtml",
               "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Genre\\Index.cshtml",
               "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Genre\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBZwCcAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAACBjwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-01T12:45:07.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Program.cs",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Program.cs",
@@ -510,20 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BookShoppingCartMvcUI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwCYAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T10:59:22.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Views\\Produto\\Index.cshtml",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Views\\Produto\\Index.cshtml",
@@ -536,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
@@ -549,20 +668,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "BookShoppingCartMvcUI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T10:50:51.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Downloads\\NaTeoria-master\\NaTeoria\\BookShoppingCartMvcUI\\appsettings.json",
               "RelativeDocumentMoniker": "BookShoppingCartMvcUI\\appsettings.json",
